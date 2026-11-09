@@ -1,6 +1,6 @@
 import json 
 class Student:
-    def _init_(self, name, age, course, email):
+    def __init__(self, name, age, course, email):
         self.name = name
         self.age = age
         self.course = course
